@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* display: grid; */
+  /* grid-template-columns: 50% 50%; */
+
+}
+header {
+  background: aquamarine;
+  /* grid-column: 1 / span 2; */
+}
+h1 {
+  grid-column: 1 / span 2;
+}
+ul {
+  grid-column-end: 3;
+}
+
+main {
+  /* grid-column: 1 / span 2; */
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.cats {
+  grid-column: 1 / span 2;
+  background-color: gold;
+
+}
+img {
+  max-width: 100%;
+}
+.meowcome {
+  background-color: navy;
+  color: white;
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+}
+/* h2 {
+  display: inline-block;
+} */
+/* .meowcome {
+  display: inline-block;
+  color: white;
+  background-color: navy;
+}
+
+.cats {
+  color: white;
+  background-color: gold;
+  grid-column:
+}
+.about {
+  background-color: royalblue;
+} */
+footer {
+  background-color: aquamarine;
+  font-family: sans-serif;
+
+}
